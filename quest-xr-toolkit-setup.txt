@@ -1,0 +1,27 @@
+************************************************************
+Starting a new VR Project with XR Interaction Toolkit in Unity
+************************************************************
+1) Create new project
+
+2) Install Packages
+   - Window->Package Manager
+   - Search for and install:
+      XR Management
+      XR Interaction Toolkit (requires viewing Preview packages)
+      Oculus XR Plugin (if using Oculus hardware)
+
+3) Adjust Build and Player Settings for Platform:
+   - Project Settings -> Player Settings -> XR Plugin Management -> Oculus-> Create (sets up Oculus rendering)
+   - Project Settings -> Player Settings -> XR Plugin Management
+      Add Oculus Loader provider to Plugin Provider section
+
+Back-end setup is complete. Project setup sample continues:
+
+4) In Hierarchy, right-click, XR -> Room-scale XR Rig
+
+5) In newly created XR Rig object, add these components:
+   Locomotion System
+   Teleportation Provider
+   Snap Turn Provider
+
+6) Update the properties for the components added in previous components in step 5.

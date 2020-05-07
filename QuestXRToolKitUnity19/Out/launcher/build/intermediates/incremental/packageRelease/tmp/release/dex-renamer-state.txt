@@ -1,0 +1,4 @@
+#Wed May 06 23:07:31 CEST 2020
+base.0=C\:\\Users\\janol\\Desktop\\git\\unity-projects\\QuestXRToolKitUnity19\\Out\\launcher\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex
